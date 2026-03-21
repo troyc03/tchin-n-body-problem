@@ -88,6 +88,6 @@ n-body/
 Clone the repository:
 
 ```bash
-git clone https://github.com/troyc03/n-body.git
-cd n-body
+git clone https://github.com/troyc03/tchin-n-body-problem.git
+cd n-body-problem
 ```
