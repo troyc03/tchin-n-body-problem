@@ -26,20 +26,13 @@ This project aims to:
 ---
 
 ## Mathematical Formulation
-
 Each body in the system follows Newton’s law of gravitation and Newton’s second law:
 
 ### Gravitational Force
-
-\[
-\mathbf{F}_{ij} = G \frac{m_i m_j}{\|\mathbf{r}_j - \mathbf{r}_i\|^3} (\mathbf{r}_j - \mathbf{r}_i)
-\]
+$$\mathbf{F}_{ij} = G \frac{m_i m_j}{\|\mathbf{r}_j - \mathbf{r}_i\|^3} (\mathbf{r}_j - \mathbf{r}_i)$$
 
 ### Equation of Motion
-
-\[
-m_i \frac{d^2 \mathbf{r}_i}{dt^2} = \sum_{j \ne i} \mathbf{F}_{ij}
-\]
+$$m_i \frac{d^2 \mathbf{r}_i}{dt^2} = \sum_{j \ne i} \mathbf{F}_{ij}$$
 
 This leads to a system of **coupled second-order differential equations**, which we rewrite as a first-order system for numerical integration.
 
