@@ -89,5 +89,5 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/troyc03/tchin-n-body-problem.git
-cd n-body-problem
+cd n-body
 ```
