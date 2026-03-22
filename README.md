@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository provides a complete framework for constructing and implementing a mathematical model in Python to simulate the trajectories of an **N-body gravitational system**.
+This repository provides a complete framework for constructing and implementing a mathematical model in Python and MATLAB to simulate the trajectories of an **N-body gravitational system**.
 
 The **N-body problem** is a classical problem in physics and applied mathematics that seeks to predict the motion of a system of celestial bodies interacting through gravitational forces. While the **two-body problem** admits an exact analytical solution (e.g., Keplerian orbits), systems with three or more bodies generally **do not have closed-form solutions**. Instead, their behavior is often:
 
