@@ -1,4 +1,4 @@
-# Numerical Approximations of Solutions to the N-Body Problem
+# A comparative study of numerical methods and their impact on long-term physical realism and chaos detection in N-body systems
 
 ## Overview
 
