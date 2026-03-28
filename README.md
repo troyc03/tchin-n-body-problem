@@ -72,12 +72,22 @@ Each method trades off:
 
 ```bash
 n-body/
-│── main.py # Entry point for simulations
-│── integrators/ # Numerical solvers (Euler, RK4, etc.)
-│── models/ # Physics and system definitions
-│── utils/ # Helper functions
-│── visualization/ # Plotting and animation tools
-│── data/ # Saved simulation data (optional)
+│── python/
+│   ├── main.py
+│   ├── integrators/
+│   ├── models/
+│   ├── experiments/
+│   │    ├── chaos_test.py
+│   │    ├── energy_drift.py
+│   ├── export/
+│
+│── matlab/
+│   ├── analyze_energy.m
+│   ├── chaos_analysis.m
+│   ├── plot_phase_space.m
+│
+│── data/
+│── reports/
 │── README.md
 ```
 
