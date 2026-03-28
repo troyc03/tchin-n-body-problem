@@ -1,8 +1,8 @@
-# Numerical Approximations of Solutions to the N-Body Problem
+# A comparative study of numerical methods and their impact on long-term physical realism and chaos detection in N-body systems
 
 ## Overview
 
-This repository provides a complete framework for constructing and implementing a mathematical model in Python to simulate the trajectories of an **N-body gravitational system**.
+This repository provides a complete framework for constructing and implementing a mathematical model in Python and MATLAB to simulate the trajectories of an **N-body gravitational system**.
 
 The **N-body problem** is a classical problem in physics and applied mathematics that seeks to predict the motion of a system of celestial bodies interacting through gravitational forces. While the **two-body problem** admits an exact analytical solution (e.g., Keplerian orbits), systems with three or more bodies generally **do not have closed-form solutions**. Instead, their behavior is often:
 
@@ -72,12 +72,22 @@ Each method trades off:
 
 ```bash
 n-body/
-│── main.py # Entry point for simulations
-│── integrators/ # Numerical solvers (Euler, RK4, etc.)
-│── models/ # Physics and system definitions
-│── utils/ # Helper functions
-│── visualization/ # Plotting and animation tools
-│── data/ # Saved simulation data (optional)
+│── python/
+│   ├── main.py
+│   ├── integrators/
+│   ├── models/
+│   ├── experiments/
+│   │    ├── chaos_test.py
+│   │    ├── energy_drift.py
+│   ├── export/
+│
+│── matlab/
+│   ├── analyze_energy.m
+│   ├── chaos_analysis.m
+│   ├── plot_phase_space.m
+│
+│── data/
+│── reports/
 │── README.md
 ```
 
@@ -88,6 +98,6 @@ n-body/
 Clone the repository:
 
 ```bash
-git clone https://github.com/troyc03/n-body.git
+git clone https://github.com/troyc03/tchin-n-body-problem.git
 cd n-body
 ```
